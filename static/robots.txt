@@ -1,0 +1,15 @@
+# Allow all crawlers to index everything except private or admin pages
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location (update the URL to match your site's sitemap)
+Sitemap: https://www.chillyhill.me/sitemap.xml
+
+# Allow Googlebot to crawl everything
+User-agent: Googlebot
+Disallow:
+
+# Allow Bingbot to crawl everything
+User-agent: Bingbot
+Disallow:
