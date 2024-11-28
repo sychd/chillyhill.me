@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27f9dfe4-cc22-4449-8ba8-a7ba626f1874" name="Changes" comment="added simple SEO tags and robots.txt">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/ru.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/uk.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.inlang/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.inlang/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/i18n.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/books/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/components/LanguageSwitcher.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/components/Navigation.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/components/ThemeSwitcher.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/Gruppo-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/OpenSans-VariableFont_wdth,wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2pTWmomUEsbiE4EHKHAoKeavMIe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "gh-pages",
+    "last_opened_file_path": "/Users/dsych/Projects/dsych-personal/chillyhill.me",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/dsych/Projects/dsych-personal/chillyhill.me/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/dsych/Projects/dsych-personal/chillyhill.me/node_modules/typescript/lib"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/routes/components" />
+      <recent name="$PROJECT_DIR$/src/routes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/routes" />
+      <recent name="$PROJECT_DIR$/static/favicon" />
+      <recent name="$PROJECT_DIR$/static/fonts" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27f9dfe4-cc22-4449-8ba8-a7ba626f1874" name="Changes" comment="" />
+      <created>1732790706809</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732790706809</updated>
+      <workItem from="1732790707854" duration="7747000" />
+      <workItem from="1732802870190" duration="4761000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1732791741952</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732791741952</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added favicon-related files, fonts; replaced generic content by a simple custom one">
+      <option name="closed" value="true" />
+      <created>1732801858953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732801858953</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added some basic nav and content, prepared for gh-pages deploy">
+      <option name="closed" value="true" />
+      <created>1732805324961</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732805324961</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added simple SEO tags and robots.txt">
+      <option name="closed" value="true" />
+      <created>1732805713428</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732805713428</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added simple SEO tags and robots.txt">
+      <option name="closed" value="true" />
+      <created>1732805882862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732805882862</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="added favicon-related files, fonts; replaced generic content by a simple custom one" />
+    <MESSAGE value="added some basic nav and content, prepared for gh-pages deploy" />
+    <MESSAGE value="added simple SEO tags and robots.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added simple SEO tags and robots.txt" />
+  </component>
+</project>
