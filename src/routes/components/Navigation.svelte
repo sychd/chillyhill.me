@@ -1,25 +1,33 @@
-<script>
+<script lang="ts">
 	import { base } from '$app/paths';
 	import { afterNavigate } from '$app/navigation';
 
-	let currentPath = '';
+	let currentPath = $state('');
 
 	afterNavigate(() => {
 		if (typeof window !== 'undefined') {
 			currentPath = window.location.pathname;
 		}
 	});
+
+	const isActive = (path: string) => currentPath === path;
 </script>
 
 <nav class="flex gap-2">
 	<a
-		class:font-bold={currentPath === `${base}/`}
+		class:active={isActive('/')}
 		class="text-cyan-600 dark:text-cyan-500 font-medium hover:underline"
 		href="{base}/">Home</a
 	>
 	<a
-		class:font-bold={currentPath === `${base}/books/`}
+		class:active={isActive('/books/')}
 		class="text-cyan-600 dark:text-cyan-500 font-medium hover:underline"
 		href="{base}/books">Books</a
 	>
 </nav>
+
+<style>
+	.active {
+		@apply font-bold;
+	}
+</style>
