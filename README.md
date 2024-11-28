@@ -22,3 +22,7 @@ npm run build
 ```
 
 Preview the production build with `npm run preview`.
+
+## Useful links
+
+[Deploy to GH Pages](https://github.com/metonym/sveltekit-gh-pages)
