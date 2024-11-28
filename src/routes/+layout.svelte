@@ -11,10 +11,12 @@
 </script>
 
 <ParaglideJS {i18n}>
-	<div class="flex min-h-screen flex-col">
-		<header class="dark:bg-gray-800 bg-secondary flex items-center justify-between px-4 py-2">
+	<div class="dark:bg-gray-600 bg-gray-50 flex min-h-screen flex-col">
+		<header class="dark:bg-gray-700 bg-secondary flex items-center justify-between px-4 py-2">
 			<section class="container flex items-center justify-between">
-				<a href={`${base}/`} class="flex items-center font-logo text-3xl text-primary"
+				<a
+					href={`${base}/`}
+					class="dark:text-secondary flex items-center font-logo text-3xl text-primary"
 					>Chillyhill ⛰︎</a
 				>
 				<script>
@@ -30,7 +32,7 @@
 		<main class="container mx-auto flex-grow px-4 py-6">
 			{@render children()}
 		</main>
-		<footer class="bg-secondary dark:bg-gray-800 p-4">
+		<footer class="bg-secondary dark:bg-gray-700 p-4">
 			<div class="text-gray-500 dark:text-gray-400 container text-center text-sm">
 				© 2024 Denys Sych
 			</div>
