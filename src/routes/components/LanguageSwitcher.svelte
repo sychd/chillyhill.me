@@ -1,27 +1,27 @@
 <script lang="ts">
-	let languages = ['🇬🇧', '🇩🇪', '🇺🇦', '🇷🇺'];
-	let selected = 0;
+  let languages = ['🇬🇧', '🇩🇪', '🇺🇦', '🇷🇺'];
+  let selected = 0;
 
-	function selectLanguage(i: number) {
-		selected = i;
-	}
+  function selectLanguage(i: number) {
+    selected = i;
+  }
 </script>
 
 <div class="flex gap-2">
-	{#each languages as lang, i}
-		<button
-			class="hover:bg-gray-200 dark:hover:bg-gray-700 rounded p-1 text-lg"
-			class:selected={selected === i}
-			on:click={() => selectLanguage(i)}
-		>
-			{lang}
-		</button>
-	{/each}
+  {#each languages as lang, i}
+    <button
+      class="rounded p-1 text-lg hover:bg-gray-200 dark:hover:bg-gray-700"
+      class:selected={selected === i}
+      on:click={() => selectLanguage(i)}
+    >
+      {lang}
+    </button>
+  {/each}
 </div>
 
 <style>
-	button.selected {
-		font-weight: bold;
-		border: 2px solid currentColor;
-	}
+  button.selected {
+    font-weight: bold;
+    border: 2px solid currentColor;
+  }
 </style>
