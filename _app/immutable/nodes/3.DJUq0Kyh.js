@@ -1,0 +1,1 @@
+import{a as t,t as a}from"../chunks/legacy.CzTh4GO4.js";var s=a('<section class="container"><p class="prose dark:prose-invert">My books to be here!</p></section>');function n(o){var e=s();t(o,e)}export{n as component};
