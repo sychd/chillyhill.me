@@ -1,1 +1,0 @@
-import{a as s,t as a}from"../chunks/legacy.DMvN90GW.js";var t=a('<section class="prose"><h1>Welcome!</h1> <p>My name is Denys and this is my blog.</p></section>');function p(e){var o=t();s(e,o)}export{p as component};
