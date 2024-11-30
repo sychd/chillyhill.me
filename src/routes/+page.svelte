@@ -5,7 +5,7 @@
   class="relative -top-14 w-full bg-[url('/images/background-banner.svg')] bg-cover bg-center pt-14"
 >
   <section class="container pb-4">
-    <div class="text-gray-600 prose py-4 dark:prose-invert">
+    <div class="text-gray-600 prose py-4">
       <h1 class="text-gray-900">Welcome,</h1>
       <div class="prose-lg">
         <p>My name is <i>Denys</i> and this is my page.</p>
@@ -14,21 +14,23 @@
           similar & we're different. I'm happy that we are!
         </p>
         <p>
-          Here you can find some of my data that I'm eager to share with you and with the world, as
+          Here you can find some of my links that I'm eager to share with you and with the world, as
           well.
         </p>
       </div>
     </div>
   </section>
+  <div class="from-gray-50 to-transparent relative h-10 bg-gradient-to-t"></div>
 </article>
-<article class=" -mt-14">
+
+<article class="-mt-20">
   <section class="container my-8 rounded-lg bg-opacity-80">
-    <div class="prose dark:prose-invert">
+    <div class="prose">
       <h2 class="text-gray-900">Some links</h2>
       <ul>
         <li>
-          <a href="https://uhhfood.vercel.app/">Uhhfood</a> — an application that allows you to scan
-          ingredients and understand whether it is better to consume or not
+          <a href="https://uhhfood.vercel.app/">Uhhfood</a> — the application that allows you to scan
+          ingredients and understand whether it is better a product to consume or not
         </li>
         <li>
           <a
@@ -36,6 +38,18 @@
             >"The experiencer" (Переживатель)</a
           > — My science fiction book, it is written in Russian. I plan to translate it some day.
         </li>
+      </ul>
+    </div>
+  </section>
+</article>
+
+<article>
+  <section class="container my-8 rounded-lg bg-opacity-80">
+    <div class="prose">
+      <h2 class="text-gray-900">Contact me</h2>
+      <ul>
+        <li>Email to be added...</li>
+        <li>Telegram to be added...</li>
       </ul>
     </div>
   </section>

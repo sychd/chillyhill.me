@@ -24,3 +24,7 @@
   font-stretch: 75% 125%;
   font-style: italic;
 }
+
+body {
+  min-width: 250px;
+}

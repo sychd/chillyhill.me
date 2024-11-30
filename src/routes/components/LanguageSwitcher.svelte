@@ -10,7 +10,7 @@
 <div class="flex gap-2">
   {#each languages as lang, i}
     <button
-      class="rounded p-1 text-lg hover:bg-gray-200 dark:hover:bg-gray-700"
+      class="hover:bg-gray-200 rounded p-1 text-lg"
       class:selected={selected === i}
       on:click={() => selectLanguage(i)}
     >

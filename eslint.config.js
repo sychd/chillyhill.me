@@ -27,7 +27,15 @@ export default ts.config(
       }
     },
     rules: {
-      'svelte/html-self-closing': 'error'
+      'svelte/html-self-closing': [
+        'error',
+        {
+          svelte: {
+            allowSelfClosing: true,
+            ignoreTags: ['div']
+          }
+        }
+      ]
     }
   },
   {
