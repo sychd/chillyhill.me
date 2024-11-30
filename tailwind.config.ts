@@ -11,6 +11,11 @@ export default {
         center: true,
         padding: {
           DEFAULT: theme('spacing.4')
+        },
+        screens: {
+          lg: '1200px',
+          xl: '1200px',
+          '2xl': '1200px'
         }
       }),
       fontFamily: {
