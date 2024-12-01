@@ -18,6 +18,13 @@ export default {
           '2xl': '1200px'
         }
       }),
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: '80ch'
+          }
+        }
+      },
       fontFamily: {
         sans: ['Open Sans', ...defaultTailwindTheme.fontFamily.sans],
         logo: ['Gruppo', 'sans-serif']
