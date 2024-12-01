@@ -41,7 +41,7 @@
   </article>
 
   <article class="bg-dots flex-grow">
-    <section class="container rounded-lg bg-opacity-80 py-8">
+    <section class="container rounded-lg bg-opacity-80 py-4">
       <div class="prose">
         <h2 class="text-gray-900">Contact me</h2>
         <p>
