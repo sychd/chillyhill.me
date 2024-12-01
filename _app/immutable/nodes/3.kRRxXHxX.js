@@ -1,0 +1,1 @@
+import{a as t,t as a}from"../chunks/legacy.6UPYZX5Q.js";var s=a('<section class="container"><p class="prose">My books to be here!</p></section>');function p(o){var e=s();t(o,e)}export{p as component};
