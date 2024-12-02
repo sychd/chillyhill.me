@@ -30,7 +30,7 @@
     px-8
  "
     >
-      <svelte:component this={data.content} />
+      {@render data.content()}
     </div>
   </div>
 </article>

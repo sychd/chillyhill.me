@@ -23,8 +23,8 @@ npm run build
 
 Preview the production build with `npm run preview`.
 
-## Useful links
+## Useful development links
 
-[Deploy to GH Pages](https://github.com/metonym/sveltekit-gh-pages)
-[Using GitHub Pages with a custom domain: Namecheap Edition](https://gist.github.com/plembo/84f80c920bb5ac6f19e53fe6f8db1ff7)
-[SvelteKit MD Blog](https://joyofcode.xyz/sveltekit-markdown-blog#posts-api-endpoint)
+- [Deploy to GH Pages](https://github.com/metonym/sveltekit-gh-pages)
+- [Using GitHub Pages with a custom domain: Namecheap Edition](https://gist.github.com/plembo/84f80c920bb5ac6f19e53fe6f8db1ff7)
+- [SvelteKit MD Blog](https://joyofcode.xyz/sveltekit-markdown-blog#posts-api-endpoint)
