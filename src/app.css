@@ -28,3 +28,12 @@
 body {
   min-width: 250px;
 }
+
+.bg-dots {
+  background-image: radial-gradient(circle, rgba(10, 110, 99, 0.24) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.link {
+  @apply text-cyan-600 italic no-underline hover:underline;
+}

@@ -1,11 +1,19 @@
 <script lang="ts">
   import '../app.css';
-  import { base } from '$app/paths';
   import { i18n } from '$lib/i18n';
   import { ParaglideJS } from '@inlang/paraglide-sveltekit';
   import Logo from './components/Logo.svelte';
+  import { base } from '$app/paths';
+  import { afterNavigate } from '$app/navigation';
 
   let { children } = $props();
+  let currentPath = $state('');
+
+  afterNavigate(() => {
+    if (typeof window !== 'undefined') {
+      currentPath = window.location.pathname;
+    }
+  });
 </script>
 
 <svelte:head>
@@ -26,6 +34,11 @@
     >
       <section class="container flex flex-shrink-0 items-center justify-between gap-4 text-nowrap">
         <Logo />
+        {#if currentPath !== '/'}
+          <a href={base + '/'} class="text-cyan-700 italic no-underline hover:underline"
+            >👈 Go home</a
+          >
+        {/if}
       </section>
     </header>
     <main class="flex flex-grow flex-col">
@@ -33,8 +46,8 @@
     </main>
     <footer class="relative h-16 bg-[url('/images/background-banner.svg')] bg-cover bg-center">
       <div class="from-transparent to-gray-50 absolute h-6 w-full bg-gradient-to-t"></div>
-      <section class="container absolute bottom-0">
-        <div class="text-cyan-800 flex justify-end p-4 text-xs">© 2024 | Denys Sych</div>
+      <section class="container">
+        <div class="text-cyan-800 flex pt-8 text-xs">© 2024 | Denys Sych</div>
       </section>
     </footer>
   </div>

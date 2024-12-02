@@ -1,3 +1,9 @@
+<script>
+  import PostsList from './components/PostsList.svelte';
+
+  let { data } = $props();
+</script>
+
 <div class="flex flex-grow flex-col">
   <article
     class="relative -top-14 left-0 w-full bg-[url('/images/background-banner.svg')] bg-cover bg-center pt-14"
@@ -23,31 +29,16 @@
     </section>
     <div class="from-gray-50 to-transparent relative h-10 bg-gradient-to-t"></div>
   </article>
-
-  <article class="bg-dots -mt-20">
-    <section class="container my-8 rounded-lg bg-opacity-80">
-      <div class="prose">
-        <h2 class="text-gray-900">Some links</h2>
-        <ul>
-          <li>
-            <a href="https://uhhfood.vercel.app/">Uhhfood</a> — the application that allows you to scan
-            ingredients and understand whether it is better a product to consume or not
-          </li>
-          <li>
-            <a
-              href="https://www.wattpad.com/story/385134851-%D0%BF%D0%B5%D1%80%D0%B5%D0%B6%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C"
-              >"The experiencer" (Переживатель)</a
-            > — My science fiction book, it is written in Russian. I plan to translate it some day.
-          </li>
-        </ul>
+  <article class="bg-dots -mt-[91px] flex flex-grow flex-col gap-8">
+    <section class="container flex-grow pt-10">
+      <div class="prose mb-4">
+        <h2 class="text-primary">Recent posts</h2>
       </div>
+      <PostsList posts={data.posts} />
     </section>
-  </article>
-
-  <article class="bg-dots flex-grow">
     <section class="container rounded-lg bg-opacity-80 py-4">
       <div class="prose">
-        <h2 class="text-gray-900">Contact me</h2>
+        <h2 class="text-primary">Contact me</h2>
         <p>
           You can reach me out by the email. Please, remove <b>NOSPАМ.</b> prefix before sending!
         </p>
@@ -62,10 +53,3 @@
     </section>
   </article>
 </div>
-
-<style>
-  .bg-dots {
-    background-image: radial-gradient(circle, rgba(10, 110, 99, 0.24) 1px, transparent 1px);
-    background-size: 24px 24px;
-  }
-</style>
