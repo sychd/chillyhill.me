@@ -1,11 +1,20 @@
+<script>
+  import PostList from './components/PostList.svelte';
+  let { data } = $props();
+</script>
+
 <div class="flex flex-grow flex-col">
   <article
     class="relative -top-14 left-0 w-full bg-[url('/images/background-banner.svg')] bg-cover bg-center pt-14"
   >
     <section class="container pb-4">
-      <div class="text-gray-600 prose py-4">
-        <h1 class="text-gray-900">Welcome,</h1>
-        <div class="prose-lg">
+      <div class="prose py-4">
+        <h1
+          class="via-cyan-500 to-indigo-500 text-transparent inline-block bg-gradient-to-r from-primary bg-clip-text"
+        >
+          Welcome!
+        </h1>
+        <div class="text-gray-600 prose-lg">
           <p>My name is <i>Denys</i> and this is my page.</p>
           <p>
             I'm a human being, software engineer, story writer, thinker, hiker, couch lier. We're
@@ -57,6 +66,8 @@
       </div>
     </section>
   </article>
+
+  <PostList posts={data.posts} />
 </div>
 
 <style>

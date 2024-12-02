@@ -1,3 +1,0 @@
-<section class="container">
-  <p class="prose">My books to be here!</p>
-</section>

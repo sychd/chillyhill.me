@@ -14,12 +14,12 @@
 </script>
 
 <nav class="flex gap-2">
-  <a class:active={isActive('/')} class="text-cyan-600 font-medium hover:underline" href="{base}/"
+  <a class:active={isActive('/')} class="font-medium text-cyan-600 hover:underline" href="{base}/"
     >Home</a
   >
   <a
     class:active={isActive('/books/')}
-    class="text-cyan-600 font-medium hover:underline"
+    class="font-medium text-cyan-600 hover:underline"
     href="{base}/books">Books</a
   >
 </nav>
