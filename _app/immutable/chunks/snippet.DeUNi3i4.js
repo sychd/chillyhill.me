@@ -1,0 +1,1 @@
+import{d as o,N as f,n as i,O as p,y as c,h as d,l as h}from"./runtime.BDrzxtr8.js";function y(s,e,...t){var r=s,n=p,a;o(()=>{n!==(n=e())&&(a&&(c(a),a=null),a=i(()=>n(r,...t)))},f),d&&(r=h)}export{y as s};
