@@ -37,3 +37,29 @@ body {
 .link {
   @apply text-cyan-600 italic no-underline hover:underline;
 }
+
+/* Commento */
+#commento .commento-root {
+  --primary-color: #3d768e;
+  --primary-color-hover: #2d5a6b;
+}
+
+#commento .commento-submit-button {
+  border-radius: 20px;
+  background-color: #3d768e !important;
+}
+
+#commento .commento-login-button,
+#commento .commento-logout-button,
+#commento .commento-button {
+  background-color: #3d768e !important;
+  border-radius: 20px;
+}
+
+#commento .commento-submit-button:hover,
+#commento .commento-login-button:hover,
+#commento .commento-logout-button:hover,
+#commento .commento-button:hover {
+  background-color: #2d5a6b !important;
+}
+/* /Commento */
