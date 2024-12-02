@@ -1,8 +1,3 @@
-<script>
-  import PostList from './components/PostList.svelte';
-  let { data } = $props();
-</script>
-
 <div class="flex flex-grow flex-col">
   <article
     class="relative -top-14 left-0 w-full bg-[url('/images/background-banner.svg')] bg-cover bg-center pt-14"
@@ -66,8 +61,6 @@
       </div>
     </section>
   </article>
-
-  <PostList posts={data.posts} />
 </div>
 
 <style>
