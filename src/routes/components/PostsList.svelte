@@ -6,7 +6,7 @@
   let { posts }: { posts: Post[] } = $props();
 </script>
 
-<section class="prose flex flex-col gap-4">
+<section class="prose flex flex-col gap-4 dark:prose-invert">
   {#each posts as post}
     <section class="gap- flex w-full items-center">
       <div class="flex w-full flex-col gap-2">
@@ -18,7 +18,7 @@
         {/if}
       </div>
 
-      <div class=" rounded-md text-center font-semibold leading-tight text-primary">
+      <div class=" dark:text-white rounded-md text-center font-semibold leading-tight text-primary">
         {formatDate(post.date)}
       </div>
     </section>

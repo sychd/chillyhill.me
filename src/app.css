@@ -35,7 +35,7 @@ body {
 }
 
 .link {
-  @apply text-cyan-600 italic no-underline hover:underline;
+  @apply text-cyan-700 hover:text-cyan-800 dark:text-cyan-500 dark:hover:text-cyan-500 italic no-underline hover:underline;
 }
 
 /* Commento */
@@ -61,5 +61,11 @@ body {
 #commento .commento-logout-button:hover,
 #commento .commento-button:hover {
   background-color: #2d5a6b !important;
+}
+
+.dark {
+  #commento-textarea-root {
+    @apply bg-gray-700 text-white;
+  }
 }
 /* /Commento */

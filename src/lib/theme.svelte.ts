@@ -5,7 +5,7 @@ class Theme {
 
   toggle = () => {
     const theme = this.current === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('color-scheme', theme);
+    document.documentElement.className = theme;
     localStorage.setItem('color-scheme', theme);
     this.current = theme;
   };

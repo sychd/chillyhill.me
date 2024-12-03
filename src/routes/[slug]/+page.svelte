@@ -10,13 +10,17 @@
   <script defer src="https://cdn.commento.io/js/commento.js"></script>
 </svelte:head>
 
-<article class="bg-gray-50 text-gray-00 bg-dots flex flex-grow flex-col overflow-hidden px-4 py-8">
+<article
+  class="bg-gray-50 dark:bg-gray-800 text-gray-300 bg-dots flex flex-grow flex-col overflow-hidden px-4 py-8"
+>
   <div class="container flex flex-grow flex-col">
-    <hgroup class="prose mb-6 flex max-w-full flex-col items-center justify-between">
-      <h1 class="mb-0 font-bold text-primary">
+    <hgroup
+      class="prose mb-6 flex max-w-full flex-col items-center justify-between dark:prose-invert"
+    >
+      <h1 class="dark:text-secondary mb-0 font-bold text-primary">
         {data.meta.title}
       </h1>
-      <div class="text-gray-600 flex items-center italic">
+      <div class="text-gray-600 dark:text-gray-300 flex items-center italic">
         <p class="text-sm font-medium">
           Published on {formatDate(data.meta.date)}
         </p>
@@ -24,18 +28,13 @@
     </hgroup>
 
     <div
-      class="prose-headings:text-gray-900
-      prose
-    prose-lg
-    max-w-full
-    flex-grow
-    px-8
- "
+      class="prose-headings:text-gray-800 dark:prose-headings:text-gray-200 prose prose-lg max-w-full flex-grow dark:prose-invert
+"
     >
       {@render data.content()}
     </div>
   </div>
-  <section class="container">
+  <section class="container px-24 pt-24">
     <div id="commento"></div>
   </section>
 </article>
