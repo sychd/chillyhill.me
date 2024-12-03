@@ -13,16 +13,18 @@
         <h1
           class="via-cyan-800 to-cyan-900 text-transparent from-cyan-700 inline-block bg-gradient-to-r bg-clip-text"
         >
-          Welcome!
+          Hello,
         </h1>
-        <div class="text-gray-600 prose-lg">
-          <p>My name is <i>Denys</i> and this is my page.</p>
+        <div class="text-gray-700 prose-lg">
+          <p>My name is <i>Denys</i> and welcome to my page!</p>
           <p>
-            I'm a human being, software engineer, story writer, thinker, hiker, couch lier. We're
-            similar & we're different. I'm happy that we are!
+            I'm a software engineer, storyteller, thinker, hiker, and occasional couch potato. We
+            may be alike in many ways, but our differences are what make us unique — and that's
+            something I truly celebrate!
           </p>
           <p>
-            Here you can find some of my creations and thoughts that I'm eager to share with you.
+            Here, you'll find a collection of my creations and thoughts, and I'm excited to share
+            them with you.
           </p>
         </div>
       </div>

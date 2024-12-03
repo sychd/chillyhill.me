@@ -3,7 +3,6 @@
   import { i18n } from '$lib/i18n';
   import { ParaglideJS } from '@inlang/paraglide-sveltekit';
   import Logo from './components/Logo.svelte';
-  import ThemeSwitcher from './components/ThemeSwitcher.svelte';
   import { base } from '$app/paths';
   import { afterNavigate } from '$app/navigation';
   import { browser } from '$app/environment';
@@ -34,9 +33,7 @@
       <section class="container flex flex-shrink-0 items-center justify-between gap-4 text-nowrap">
         <Logo />
         {#if currentPath !== '/'}
-          <a href={base + '/'} class="text-cyan-700 italic no-underline hover:underline"
-            >👈 Go home</a
-          >
+          <a href={base + '/'} class="link">👈 Go home</a>
         {/if}
       </section>
     </header>

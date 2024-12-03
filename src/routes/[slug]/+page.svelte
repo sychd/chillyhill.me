@@ -12,7 +12,7 @@
 
 <article class="bg-gray-50 text-gray-00 bg-dots flex flex-grow flex-col overflow-hidden px-4 py-8">
   <div class="container flex flex-grow flex-col">
-    <hgroup class="prose mb-6 flex flex-col items-center justify-between">
+    <hgroup class="prose mb-6 flex max-w-full flex-col items-center justify-between">
       <h1 class="mb-0 font-bold text-primary">
         {data.meta.title}
       </h1>
@@ -25,8 +25,9 @@
 
     <div
       class="prose-headings:text-gray-900
-    prose
+      prose
     prose-lg
+    max-w-full
     flex-grow
     px-8
  "
