@@ -3,17 +3,16 @@
   import { i18n } from '$lib/i18n';
   import { ParaglideJS } from '@inlang/paraglide-sveltekit';
   import Logo from './components/Logo.svelte';
+  import ThemeSwitcher from './components/ThemeSwitcher.svelte';
   import { base } from '$app/paths';
   import { afterNavigate } from '$app/navigation';
+  import { browser } from '$app/environment';
 
   let { children } = $props();
-  let currentPath = $state('');
 
-  afterNavigate(() => {
-    if (typeof window !== 'undefined') {
-      currentPath = window.location.pathname;
-    }
-  });
+  const getCurrentPath = () => (browser ? window.location.pathname : '/');
+  let currentPath = $state(getCurrentPath());
+  afterNavigate(() => (currentPath = getCurrentPath()));
 </script>
 
 <svelte:head>

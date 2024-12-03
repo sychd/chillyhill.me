@@ -11,7 +11,7 @@
     <section class="container pb-4">
       <div class="prose py-4">
         <h1
-          class="via-cyan-500 to-indigo-500 text-transparent inline-block bg-gradient-to-r from-primary bg-clip-text"
+          class="via-cyan-800 to-cyan-900 text-transparent from-cyan-700 inline-block bg-gradient-to-r bg-clip-text"
         >
           Welcome!
         </h1>

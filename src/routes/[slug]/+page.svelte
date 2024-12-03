@@ -1,6 +1,5 @@
 <script lang="ts">
   import { formatDate } from '$lib/utils';
-  import { base } from '$app/paths';
   let { data } = $props();
 </script>
 
