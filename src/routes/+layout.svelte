@@ -18,7 +18,7 @@
 </svelte:head>
 
 <ParaglideJS {i18n}>
-  <div class="bg-gray-5 dark:bg-gray-800 flex min-h-screen flex-col">
+  <div class="bg-gray-50 dark:bg-gray-800 flex min-h-screen flex-col">
     <Header />
     <main class="flex flex-grow flex-col">
       {@render children()}
