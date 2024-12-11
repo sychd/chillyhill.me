@@ -34,7 +34,7 @@
       {@render data.content()}
     </div>
   </div>
-  <section class="container px-24 pt-24">
+  <section class="container lg:pt-14 md:pt-8">
     <div id="commento"></div>
   </section>
 </article>

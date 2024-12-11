@@ -17,11 +17,11 @@
       class="dark:text-secondary text-cyan-800 flex items-center font-logo text-3xl"
       >Chillyhill ⛰︎</a
     >
-    <div class="flex flex-nowrap gap-12">
+    <div class="flex flex-nowrap gap-4 items-center">
       {#if currentPath !== '/'}
-        <a href={base + '/'} class="link">
+        <a href={base + '/'} class="link h-fit">
           <button
-            class="dark:border-secondary hover:border-cyan-800 border-cyan-700 dark:text-secondary rounded-xl border px-4 py-1 text-sm text-primary transition hover:scale-105"
+            class="dark:border-secondary hover:bg-cyan-800/10 dark:hover:bg-gray-600/50 border-cyan-700 dark:text-secondary rounded-xl border px-4 py-1 text-sm text-primary transition-colors"
           >
             ◀ Go home
           </button>
