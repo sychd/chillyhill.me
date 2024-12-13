@@ -23,7 +23,10 @@ const config = {
       base: process.env.NODE_ENV === 'production' ? '/sveltekit-gh-pages' : ''
     }
   },
-
+  prerender: {
+    default: true
+  },
+  hydratable: false, // No hydration for a fully static site
   extensions: ['.svelte', '.md']
 };
 
