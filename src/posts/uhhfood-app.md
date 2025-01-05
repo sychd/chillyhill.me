@@ -5,6 +5,7 @@ date: '2024-11-30'
 categories:
   - programming
 published: true
+language: en
 ---
 
 # Uhhfood - check what is inside!

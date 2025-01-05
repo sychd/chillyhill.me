@@ -8,17 +8,17 @@
 
 <section class="prose flex flex-col gap-4 dark:prose-invert">
   {#each posts as post}
-    <section class="gap- flex w-full items-center">
+    <section class="flex w-full items-center">
       <div class="flex w-full flex-col gap-2">
         <a href={base + '/' + post.slug} class="link text-lg font-semibold">{post.title}</a>
         {#if post.description}
-          <span class="">
+          <span>
             {post.description}
           </span>
         {/if}
       </div>
 
-      <div class=" dark:text-white rounded-md text-center font-semibold leading-tight text-primary">
+      <div class=" rounded-md text-center font-semibold leading-tight text-primary dark:text-white">
         {formatDate(post.date)}
       </div>
     </section>
