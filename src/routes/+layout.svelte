@@ -18,17 +18,17 @@
 </svelte:head>
 
 <ParaglideJS {i18n}>
-  <div class="bg-gray-50 dark:bg-gray-800 flex min-h-screen flex-col">
+  <div class="flex min-h-screen flex-col bg-gray-50 dark:bg-gray-800">
     <Header />
     <main class="flex flex-grow flex-col">
       {@render children()}
     </main>
     <footer class="relative h-16 bg-[url('/images/background-banner.svg')] bg-cover bg-center">
       <div
-        class="from-transparent to-gray-50 dark:to-gray-800 absolute h-6 w-full bg-gradient-to-t"
+        class="absolute h-6 w-full bg-gradient-to-t from-transparent to-gray-50 dark:to-gray-800"
       ></div>
       <section class="container">
-        <div class="text-cyan-800 dark:text-secondary flex pt-8 text-xs">© 2024 | Denys Sych</div>
+        <div class="flex pt-8 text-xs text-cyan-800 dark:text-secondary">© 2025 | Denys Sych</div>
       </section>
     </footer>
   </div>

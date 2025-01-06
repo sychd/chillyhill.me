@@ -26,7 +26,7 @@
             Here, you'll find a collection of my creations and thoughts, and I'm thrilled to share
             them with you. I write in English, Ukrainian, and Russian, so you'll come across a wild
             mix of all three here. I do have plans to add multi-language support someday — but not
-            today (seriously, I'm a pro-level couch potato).
+            today (seriously, I'm an occasional, yet a pro-level couch potato).
           </p>
         </div>
       </div>
@@ -57,7 +57,7 @@
           </li>
           <li>
             Telegram channel: <a class="link !not-italic" href="https://t.me/thecoldmountain"
-              >The cold mountain</a
+              >The Cold Mountain</a
             >
           </li>
         </ul>
