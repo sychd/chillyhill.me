@@ -1,11 +1,12 @@
 ---
 title: "Ошо Багван Шри Раджниш: Тантра - высшее понимание" 
-description: Заметки по книге
+description: Заметки по книге Тантра, основные моменты на мой взгляд
 date: '2025-01-06'
 categories:
-  - book notes
-  - philosophy
-  - theology
+  - заметки по книгам
+  - философия
+  - образ жизни
+  - теология
 published: true
 language: ru
 ---

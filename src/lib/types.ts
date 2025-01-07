@@ -1,4 +1,5 @@
 export type Categories =
+  | 'программирование' | 'писательство' | 'заметки по книгам' | 'образ жизни' | 'философия' | 'теология'
   | 'programming' | 'writing' | 'book notes'
   | 'lifestyle' | 'philosophy' | 'theology';
 
