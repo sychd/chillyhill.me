@@ -28,7 +28,7 @@
         class="absolute h-6 w-full bg-gradient-to-t from-transparent to-gray-50 dark:to-gray-800"
       ></div>
       <section class="container">
-        <div class="flex pt-8 text-xs text-cyan-800 dark:text-secondary">© 2025 | Denys Sych</div>
+        <div class="flex pt-8 text-xs text-cyan-900 dark:text-secondary">Denys Sych © 2025</div>
       </section>
     </footer>
   </div>

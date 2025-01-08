@@ -51,12 +51,12 @@
         </p>
         <ul>
           <li>
-            Email: <a class="link !not-italic" href="mailto:NOSPАМ.dechillyhill&#64;proton&#46;me"
+            Email: <a class="link" href="mailto:NOSPАМ.dechillyhill&#64;proton&#46;me"
               >NOSPАМ.dechillyhill&#64;proton&#46;me</a
             >
           </li>
           <li>
-            Telegram channel: <a class="link !not-italic" href="https://t.me/thecoldmountain"
+            Telegram channel: <a class="link" href="https://t.me/thecoldmountain"
               >The Cold Mountain</a
             >
           </li>

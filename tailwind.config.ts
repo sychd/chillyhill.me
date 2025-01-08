@@ -26,7 +26,7 @@ export default {
         }
       },
       fontFamily: {
-        sans: ['Open Sans', ...defaultTailwindTheme.fontFamily.sans],
+        sans: ['Montserrat', ...defaultTailwindTheme.fontFamily.sans],
         logo: ['Gruppo', 'sans-serif']
       },
       filter: {
