@@ -10,7 +10,6 @@ language: en
 Couple of photos that were taken recently and I find them really stunning. Please, enjoy!
 
 # Fire crocodile
-![Fire crocodile](/images/fire-croco.png)
-
+![Fire crocodile](./images/fire-croco.png)
 # Nature's greatness
-![Forst beauty](/images/forest-beauty.jpg)
+![Forst beauty](./images/forest-beauty.jpg)
