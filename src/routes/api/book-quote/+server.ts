@@ -26,16 +26,18 @@ const getQuoteFromPost = (raw: string, meta: { title: string; slug: string }): B
 async function getBookQuote(): Promise<BookPostQuote> {
   const paths = import.meta.glob('/src/posts/*.md', { eager: true });
   const contents = import.meta.glob('/src/posts/*.md', { eager: true, query: 'raw' });
-  const [path, file] = getRandomItem(Object.entries(paths));
+  const [path, file] = getRandomItem(
+    Object.entries(paths).filter(([, f]) => {
+      return (f as { metadata: Post }).metadata?.categories.includes('book notes');
+    })
+  );
   const slug = path.split('/').at(-1)?.replace('.md', '');
 
   if (file && typeof file === 'object' && 'metadata' in file && slug) {
     const metadata = file.metadata as Omit<Post, 'slug'>;
     const post = { ...metadata, slug } satisfies Post;
 
-    if (post.categories.includes('book notes')) {
-      return getQuoteFromPost((contents[path] as { default: string }).default, post);
-    }
+    return getQuoteFromPost((contents[path] as { default: string }).default, post);
   }
 
   return getQuoteFromPost('', { title: '', slug: '' });

@@ -23,10 +23,12 @@
             something I truly celebrate!
           </p>
           <p>
-            Here, you'll find a collection of my creations and thoughts, and I'm thrilled to share
-            them with you. I write in English, Ukrainian, and Russian, so you'll come across a wild
-            mix of all three here. I do have plans to add multi-language support someday — but not
-            today (seriously, I'm an occasional, yet a pro-level couch potato).
+            Here, you'll discover a collection of my creations, reflections, and useful insights
+            I've gathered. I write in English, Ukrainian, and Russian, so you'll come across a wild
+            mix of all three here. <span class="italic"
+              >I do have plans to add multi-language support someday — but not today (seriously, I'm
+              an occasional, yet a pro-level couch potato).</span
+            >
           </p>
         </div>
         <div class="flex flex-col gap-2 px-4">
@@ -34,7 +36,7 @@
           <p class="m-0 text-sm italic first-letter:capitalize">
             {data.quote.quote}
           </p>
-          <a class="link text-xs self-end" href={data.quote.link}>{data.quote.title}</a>
+          <a class="link self-end text-xs" href={data.quote.link}>{data.quote.title}</a>
         </div>
       </div>
     </section>
