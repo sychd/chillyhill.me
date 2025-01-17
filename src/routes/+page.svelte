@@ -29,6 +29,13 @@
             today (seriously, I'm an occasional, yet a pro-level couch potato).
           </p>
         </div>
+        <div class="flex flex-col gap-2 px-4">
+          <h4 class="mb-0 text-primary dark:text-secondary">Occasional book quote</h4>
+          <p class="m-0 text-sm italic first-letter:capitalize">
+            {data.quote.quote}
+          </p>
+          <a class="link text-xs self-end" href={data.quote.link}>{data.quote.title}</a>
+        </div>
       </div>
     </section>
     <div

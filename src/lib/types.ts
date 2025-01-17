@@ -18,8 +18,10 @@ export type Post = {
   title: string;
   slug: string;
   description: string;
-  language: LANGUAGES[];
+  language: Language[];
   date: string;
   categories: Category[];
   published: boolean;
 };
+
+export type BookPostQuote = { quote: string; title: string; link: string };
