@@ -23,7 +23,7 @@
       {#if !ROOT_PATHS.includes(currentPath)}
         <a href={base + '/'} class="link h-fit">
           <button
-            class="rounded-md  bg-cyan-700/10 px-4 py-2 text-sm text-primary transition-colors hover:bg-cyan-800/20 dark:bg-secondary/30 dark:text-secondary dark:hover:bg-secondary/20"
+            class="rounded-md bg-cyan-700/10 px-4 py-2 text-sm text-primary transition-colors hover:bg-cyan-800/20 dark:bg-secondary/30 dark:text-secondary dark:hover:bg-secondary/20"
           >
             🏠
           </button>

@@ -4,6 +4,7 @@ description: The application that allows you to scan ingredients and understand 
 date: '2024-11-30'
 categories:
   - programming
+  - my app
 published: true
 language: en
 ---

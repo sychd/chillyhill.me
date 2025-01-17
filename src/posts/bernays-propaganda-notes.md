@@ -1,10 +1,9 @@
 ---
-title: "Edward L. Bernays: \"Propaganda\"" 
+title: 'Edward L. Bernays: "Propaganda"'
 description: Book notes from "Propaganda" by E. Bernays
 date: '2025-01-17'
 categories:
-  - заметки по книгам
-  - book notes  
+  - book notes
 published: true
 language: en
 ---

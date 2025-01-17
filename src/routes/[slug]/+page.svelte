@@ -11,16 +11,16 @@
 </svelte:head>
 
 <article
-  class="bg-gray-50 dark:bg-gray-800 text-gray-300 bg-dots flex flex-grow flex-col overflow-hidden px-4 py-8"
+  class="bg-dots flex flex-grow flex-col overflow-hidden bg-gray-50 px-4 py-8 text-gray-300 dark:bg-gray-800"
 >
   <div class="container flex flex-grow flex-col">
     <hgroup
       class="prose mb-6 flex max-w-full flex-col items-center justify-between dark:prose-invert"
     >
-      <h1 class="dark:text-secondary mb-0 font-bold text-primary">
+      <h1 class="mb-0 font-bold text-primary dark:text-secondary">
         {data.meta.title}
       </h1>
-      <div class="text-gray-600 dark:text-gray-300 flex items-center italic">
+      <div class="flex items-center italic text-gray-600 dark:text-gray-300">
         <p class="text-sm font-medium">
           Published on {formatDate(data.meta.date)}
         </p>
@@ -28,13 +28,13 @@
     </hgroup>
 
     <div
-      class="prose-headings:text-gray-800 dark:prose-headings:text-gray-200 prose prose-lg max-w-full flex-grow dark:prose-invert
+      class="prose prose-lg max-w-full flex-grow dark:prose-invert prose-headings:text-gray-800 dark:prose-headings:text-gray-200
 "
     >
       {@render data.content()}
     </div>
   </div>
-  <section class="container lg:pt-14 md:pt-8">
+  <section class="container md:pt-8 lg:pt-14">
     <div id="commento"></div>
   </section>
 </article>

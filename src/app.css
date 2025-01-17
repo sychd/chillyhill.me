@@ -35,7 +35,7 @@ body {
 }
 
 .link {
-  @apply text-cyan-800 hover:text-cyan-900 dark:text-cyan-500 dark:hover:text-cyan-500 no-underline hover:underline;
+  @apply text-cyan-800 no-underline hover:text-cyan-900 hover:underline dark:text-cyan-500 dark:hover:text-cyan-500;
 }
 
 /* Commento */
