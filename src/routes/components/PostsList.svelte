@@ -18,7 +18,7 @@
         {/if}
       </div>
 
-      <div class=" rounded-md text-center font-semibold leading-tight text-primary dark:text-white">
+      <div class="rounded-md text-center font-semibold leading-tight text-primary dark:text-white">
         {formatDate(post.date)}
       </div>
     </section>
