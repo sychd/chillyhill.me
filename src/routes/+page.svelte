@@ -1,5 +1,6 @@
 <script>
   import PostsList from './components/PostsList.svelte';
+  import BookQuote from './components/BookQuote.svelte';
 
   let { data } = $props();
 </script>
@@ -31,13 +32,7 @@
             >
           </p>
         </div>
-        <div class="flex flex-col gap-2 px-4">
-          <h4 class="mb-0 text-primary dark:text-secondary">Occasional book quote</h4>
-          <p class="m-0 text-sm italic first-letter:capitalize">
-            {data.quote.quote}
-          </p>
-          <a class="link self-end text-xs" href={data.quote.link}>{data.quote.title}</a>
-        </div>
+        <BookQuote quotes={data.quotes} />
       </div>
     </section>
     <div
