@@ -10,7 +10,8 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "format": "prettier --write .",
-    "lint": "prettier --check . && eslint ."
+    "lint": "prettier --check . && eslint .",
+    "sitemap": "npx sitemap-generator-cli https://chillyhill.me -f static/sitemap.xml && git add static/sitemap.xml && git commit -m\"Updated sitemap.xml\" && git push"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",
