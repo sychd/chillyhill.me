@@ -1,6 +1,6 @@
 ---
 title: 'Эпиктет: "Беседы" и "Руководство к жизни"'
-description: Стоицизм, book notes Эпиктета
+description: Стоицизм, заметки по книгам Эпиктета
 date: '2025-01-05'
 categories:
   - book notes
