@@ -1,7 +1,5 @@
 <script lang="ts">
-  import type { BookNoteQuotes, Post } from '$lib/types';
-  import { base } from '$app/paths';
-  import { formatDate } from '$lib/utils';
+  import type { BookNoteQuotes } from '$lib/types';
 
   let { quotes }: { quotes: BookNoteQuotes[] } = $props();
   const getRandomItem = <T,>(array: T[]): T => array[Math.floor(Math.random() * array.length)];

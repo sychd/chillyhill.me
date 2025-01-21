@@ -1,6 +1,6 @@
 <script>
   import PostsList from './components/PostsList.svelte';
-  import BookQuote from './components/BookQuote.svelte';
+  import BookQuote from '$lib/components/BookQuote.svelte';
 
   let { data } = $props();
 </script>
