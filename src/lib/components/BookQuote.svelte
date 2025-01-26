@@ -8,7 +8,6 @@
 </script>
 
 <div class="flex flex-col gap-2 px-4">
-  <h4 class="mb-0 text-primary dark:text-secondary">Occasional book quote</h4>
   <p class="m-0 text-sm italic first-letter:capitalize">
     {quote}
   </p>
