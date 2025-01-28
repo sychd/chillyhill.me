@@ -1,7 +1,7 @@
 ---
-title: Вірш "Волі духу"
-description: Волі і вашому, і нашому
-date: '2025-01-26'
+title: Вірш "Волі"
+description: І вашому, і нашому, і будь-якому
+date: '2025-01-28'
 categories:
   - poetry
 published: true
