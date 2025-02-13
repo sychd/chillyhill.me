@@ -11,7 +11,8 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "format": "prettier --write .",
     "lint": "prettier --check . && eslint .",
-    "sitemap": "npx sitemap-generator-cli https://chillyhill.me -f static/sitemap.xml && git add static/sitemap.xml && git commit -m\"Updated sitemap.xml\" && git push"
+    "sitemap": "npx sitemap-generator-cli https://chillyhill.me -f static/sitemap.xml && git add static/sitemap.xml && git commit -m\"Updated sitemap.xml\" && git push",
+    "sitemap:local": "npx sitemap-generator-cli http://localhost:9000 -f static/sitemap.xml"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",

@@ -1,5 +1,6 @@
 export const CATEGORIES = [
   'programming',
+  'ai',
   'writing',
   'book notes',
   'lifestyle',

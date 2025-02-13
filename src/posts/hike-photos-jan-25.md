@@ -12,8 +12,8 @@ Couple of photos that were taken recently and I find them really stunning. Pleas
 
 # Fire crocodile
 
-![Fire crocodile](./images/fire-croco.png)
+![Fire crocodile](./images/hike-photos-jan-25/fire-croco.png)
 
 # Nature's greatness
 
-![Forst beauty](./images/forest-beauty.jpg)
+![Forst beauty](./images/hike-photos-jan-25/forest-beauty.jpg)
