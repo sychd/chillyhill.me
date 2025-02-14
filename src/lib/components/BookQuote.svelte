@@ -8,8 +8,8 @@
 </script>
 
 <div class="flex flex-col gap-2 px-4">
-  <p class="m-0 text-sm italic first-letter:capitalize">
+  <p class="m-0 text-sm italic first-letter:capitalize" data-id="quote-body">
     {quote}
   </p>
-  <a class="link self-end text-xs" href={article.link}>{article.title}</a>
+  <a class="link self-end text-xs" data-id="quote-link" href={article.link}>{article.title}</a>
 </div>
