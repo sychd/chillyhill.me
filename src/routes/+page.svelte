@@ -18,19 +18,10 @@
           Hello,
         </h1>
         <div class="prose-lg text-gray-700 dark:text-gray-200">
-          <p>My name is <i>Denys</i> and welcome to my page!</p>
+          <p>My name is <i>Denys</i>, welcome to my page!</p>
           <p>
-            I'm a software engineer, storyteller, thinker, hiker, and occasional couch potato. We
-            may be alike in many ways, but our differences are what make us unique — and that's
-            something I truly celebrate!
-          </p>
-          <p>
-            Here, you'll discover a collection of my creations, reflections, and useful insights
-            I've gathered. I write in English, Ukrainian, and Russian, so you'll come across a wild
-            mix of all three here. <span class="italic"
-              >I do have plans to add multi-language support someday — but not today (seriously, I'm
-              an occasional, yet a pro-level couch potato).</span
-            >
+            Here, you'll discover a collection of my notes, creations & reflections. I write in
+            English, Ukrainian, and Russian, so you'll come across a wild mix of all three here.
           </p>
         </div>
         <div class="flex flex-col">
@@ -55,14 +46,10 @@
     <section class="container rounded-lg bg-opacity-80 py-4">
       <div class="prose dark:prose-invert">
         <h2 class="text-primary dark:text-secondary">Contact me</h2>
-        <p>
-          You can reach me out by the email. Please, remove <b>NOSPАМ.</b> prefix before sending! Also,
-          we can connect in telegram:
-        </p>
         <ul>
           <li>
-            Email: <a class="link" href="mailto:NOSPАМ.dechillyhill&#64;proton&#46;me"
-              >NOSPАМ.dechillyhill&#64;proton&#46;me</a
+            Email: <a class="link" href="mailto:dechillyhill&#64;proton&#46;me"
+              >dechillyhill&#64;proton&#46;me</a
             >
           </li>
           <li>
