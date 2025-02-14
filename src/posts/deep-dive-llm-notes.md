@@ -52,7 +52,7 @@ Still, you can program this out.
 
 Left is significantly worse! It gives immediately the answer. That is totally bad for training. It reads and generates tokens from left to right.
 
-On the right, we show ongoing process, we create interment calculations.
+On the right, we show ongoing process, we create step-by-step calculations.
 
 So it builds its own context window, building tokens one by one, and helping itself to come to the answer.
 
