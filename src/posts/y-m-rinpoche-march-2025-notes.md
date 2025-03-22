@@ -7,7 +7,7 @@ categories:
   - philosophy
   - lifestyle
 published: true
-language: en
+language: ru
 ---
 
 Спасибо, Ринпоче!
