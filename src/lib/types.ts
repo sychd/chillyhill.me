@@ -25,6 +25,7 @@ export type Post = {
   date: string;
   categories: Category[];
   published: boolean;
+  skipQuoting?: boolean;
 };
 
 export type BookNoteQuotes = { quotes: string[]; title: string; link: string };
