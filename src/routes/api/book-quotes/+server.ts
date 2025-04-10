@@ -30,7 +30,7 @@ async function getBookQuotes(): Promise<BookNoteQuotes[]> {
     const slug = path.split('/').at(-1)?.replace('.md', '');
     if (file && typeof file === 'object' && 'metadata' in file) {
       const metadata = Object.assign({ slug }, file.metadata) as Post;
-      if (metadata.categories.includes('book notes')) {
+      if (metadata.categories.includes('book notes') && !metadata.skipQuoting) {
         result = result.concat(
           getQuotesFromPost((contents[path] as { default: string }).default, metadata)
         );

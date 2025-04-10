@@ -7,6 +7,7 @@ categories:
   - writing
 published: true
 language: en
+skipQuoting: true
 ---
 
 Кинг крут, "Темная башня" — шедевр.

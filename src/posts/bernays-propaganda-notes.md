@@ -6,6 +6,7 @@ categories:
   - book notes
 published: true
 language: en
+skipQuoting: true
 ---
 
 - The mechanism by which ideas are disseminated on a large scale is propaganda, in the broad sense of an organized effort to spread a particular belief or doctrine.
