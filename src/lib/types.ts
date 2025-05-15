@@ -9,7 +9,7 @@ export const CATEGORIES = [
   'photo',
   'my app',
   'psychology',
-  'writing',
+  'story',
   'poetry'
 ] as const;
 export type Category = (typeof CATEGORIES)[number];
