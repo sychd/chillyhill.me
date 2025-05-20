@@ -1,6 +1,6 @@
 ---
 title: Рассказ "Препарат"
-description: Антивоенный рассказ
+description: Антивоенная философская сатира
 date: '2025-05-15'
 categories:
   - story
