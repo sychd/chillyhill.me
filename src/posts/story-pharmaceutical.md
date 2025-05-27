@@ -5,7 +5,7 @@ date: '2025-05-15'
 categories:
   - story
   - writing
-published: true
+published: false
 language: ru
 ---
 <h1 style="text-align: center">Препарат</h1>
