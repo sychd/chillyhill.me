@@ -1,47 +1,4 @@
-<!doctype html>
-<html lang="de" dir="ltr">
-  <head>
-    <script type="module">
-      const theme = localStorage.getItem('color-scheme');
-      document.documentElement.classList = theme;
-    </script>
-    <meta charset="utf-8" />
-    <link rel="icon" href="../../favicon/favicon.ico" />
-    <title>Chillyhill - Sych's blog</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Chillyhill" />
-    <meta
-      name="keywords"
-      content="blog, technology, coding, programming, science fiction, philosophy, well-being"
-    />
-    <meta name="author" content="Denys Sych" />
-    <meta name="robots" content="index, follow" />
-    <meta name="google-site-verification" content="elucFECRq9znF7rKTQzAZqWBemBraHb9b4W11m6SBLU" />
-    
-		<link href="../../_app/immutable/assets/0.CZsZYGdU.css" rel="stylesheet">
-		<link rel="modulepreload" href="../../_app/immutable/entry/start.cvYUn5Qs.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/entry.CTO0Uq1-.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/runtime.D0Eux3pY.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/paths.C2O4Qx4z.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/control.CYgJF_JY.js">
-		<link rel="modulepreload" href="../../_app/immutable/entry/app.D8u5nc0p.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/preload-helper.C1FmrZbK.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/i18n.Cqq4g9A2.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/disclose-version.BheL1EAt.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/legacy.DCSAwivz.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/render.C9VHuSLT.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/if.CfBZslrq.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/0.BnA1fzct.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/snippet.jpzZWUrQ.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/lifecycle.BOnKsnK4.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/index.BlN0fJ6l.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/each.DaDQC22D.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/attributes.CSLP4MgI.js">
-		<link rel="modulepreload" href="../../_app/immutable/nodes/3.Dk7W7-yh.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/utils.D2VCOvFc.js"><!--[--><!--[--><script defer="" src="https://cloud.umami.is/script.js" data-website-id="6f688109-6024-4733-9aad-826681849c91"></script><!----><!--]--><!--]--><!--[--><!--[--><!--[--><!--[--><link rel="alternate" hreflang="en" href="http://sveltekit-prerender/story-pharmaceutical/"><link rel="alternate" hreflang="de" href="http://sveltekit-prerender/de/story-pharmaceutical/"><link rel="alternate" hreflang="uk" href="http://sveltekit-prerender/uk/story-pharmaceutical/"><link rel="alternate" hreflang="ru" href="http://sveltekit-prerender/ru/story-pharmaceutical/"><!--]--><!--]--><!--]--><!--]--><!--[--><meta property="og:type" content="article"> <meta property="og:title" content="Рассказ &quot;Препарат&quot;"><!--]--><title>Рассказ "Препарат"</title>
-  </head>
-  <body data-sveltekit-preload-data="hover">
-    <div style="display: contents"><!--[--><!--[--><!----><!----><!----><div class="flex min-h-screen flex-col bg-gray-50 dark:bg-gray-800"><header class="relative z-10 flex h-14 items-center justify-between bg-gradient-to-b from-primary/10 to-transparent py-2"><section class="container flex flex-shrink-0 items-center justify-between gap-4 text-nowrap"><a href="/de/" class="flex items-center font-logo text-3xl text-cyan-900 dark:text-secondary">Chillyhill ⛰︎</a> <div class="flex flex-nowrap items-center gap-4"><!--[!--><!--]--> <button aria-label="Toggle theme" class="invisible"><!--[!--><div>🌙</div><!--]--></button><!----></div></section></header><!----> <main class="flex flex-grow flex-col"><!----><article class="bg-dots flex flex-grow flex-col overflow-hidden bg-gray-50 px-4 py-8 text-gray-300 dark:bg-gray-800"><div class="container flex flex-grow flex-col"><hgroup class="prose mb-6 flex max-w-full flex-col items-center justify-between dark:prose-invert"><h1 class="mb-0 font-bold text-primary dark:text-secondary">Рассказ "Препарат"</h1> <div class="flex items-center italic text-gray-600 dark:text-gray-300"><p class="text-sm font-medium">Published on May 15, 2025</p></div></hgroup> <div class="prose prose-lg max-w-full flex-grow dark:prose-invert prose-headings:text-gray-800 dark:prose-headings:text-gray-200"><h1 style="text-align: center">Препарат</h1> <p style="white-space: break-spaces">Двое людей в белых халатах стояли напротив широкого письменного стола. За ним сидел человек, напоминавший мясника, которого нарядили в темно-зеленый костюм и всучили ручку вместо топора.
+import{a as e,t as r}from"./disclose-version.BheL1EAt.js";import"./legacy.DCSAwivz.js";import{S as s}from"./runtime.D0Eux3pY.js";const l={title:'Рассказ "Препарат"',description:"Антивоенная философская сатира",date:"2025-05-15",categories:["story","writing"],published:!1,language:"ru"};var i=r(`<h1 style="text-align: center">Препарат</h1> <p style="white-space: break-spaces">Двое людей в белых халатах стояли напротив широкого письменного стола. За ним сидел человек, напоминавший мясника, которого нарядили в темно-зеленый костюм и всучили ручку вместо топора.
 — Мне нужно, чтобы они не чувствовали сомнения и страха, были преданы великой цели! — мужчина опустил кулак на стол. — И мне нужно что-то новое, а не ваш проклятый первитин!
 — Но первитин уже давно не используют…
 — Мне плевать, как оно сейчас называется!
@@ -163,31 +120,4 @@
 “Экстренное включение! Вирус, вызывающий безумие, распространился в округе 18:21, 23:34. Вспышки замечены и в северной части страны, введены карантинные меры. Больные выражают антисоциальные, революционные идеи. Вирус передается воздушно-капельным путем, имеет признаки респираторного заболевания. Берегите себя, не выходите на улицы! ”.
 Тем временем, командир лежал на полу и продолжал говорить уже сам с собой:
 — Как можно причинить вред “другому”? Только не зная того, что “другой” — иллюзия, и все на самом деле едино. Ярлыки, которые навесили мы всему вокруг — фикция. У нас нет врагов, мы создали их сами своим невежеством и болезненным желанием. Но этому конец, ведь я теперь вижу!
-Где-то снаружи заливисто зазвенела трель соловья.</p><!----></div></div></article><!----><!----></main> <footer class="relative h-16 bg-[url('/images/background-banner.svg')] bg-cover bg-center"><div class="absolute h-6 w-full bg-gradient-to-t from-transparent to-gray-50 dark:to-gray-800"></div> <section class="container"><div class="flex pt-8 text-xs text-cyan-900 dark:text-secondary">Denys Sych © 2025</div></section></footer></div><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
-			
-			<script>
-				{
-					__sveltekit_l72wf1 = {
-						base: new URL("../..", location).pathname.slice(0, -1)
-					};
-
-					const element = document.currentScript.parentElement;
-
-					const data = [null,null];
-
-					Promise.all([
-						import("../../_app/immutable/entry/start.cvYUn5Qs.js"),
-						import("../../_app/immutable/entry/app.D8u5nc0p.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 3],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-  </body>
-</html>
+Где-то снаружи заливисто зазвенела трель соловья.</p>`,1);function m(t){var a=i();s(2),e(t,a)}export{m as default,l as metadata};
