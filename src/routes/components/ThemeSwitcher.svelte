@@ -6,7 +6,7 @@
   setTimeout(() => (visible = true));
 </script>
 
-<button on:click={theme.toggle} aria-label="Toggle theme" class:invisible={!visible}>
+<button onclick={theme.toggle} aria-label="Toggle theme" class:invisible={!visible}>
   {#if theme.current === 'dark'}
     <div in:fly={{ x: 10 }}>☀️</div>
   {:else}

@@ -29,10 +29,6 @@ body {
   min-width: 250px;
 }
 
-.bg-dots {
-  background-image: radial-gradient(circle, rgba(10, 110, 99, 0.24) 1px, transparent 1px);
-  background-size: 24px 24px;
-}
 
 .link {
   @apply cursor-pointer text-cyan-800 no-underline hover:text-cyan-900 hover:underline dark:text-cyan-500 dark:hover:text-cyan-500;

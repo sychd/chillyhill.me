@@ -18,7 +18,7 @@
 <div class="relative inline-block text-left">
   <button
     class="flex w-12 items-center justify-center bg-transparent px-1 py-2 text-2xl focus:outline-none dark:text-white"
-    on:click={toggleDropdown}
+    onclick={toggleDropdown}
   >
     <span>{selectedLanguage}</span>
   </button>
@@ -32,7 +32,7 @@
         {#if lang !== selectedLanguage}
           <button
             class="block cursor-pointer px-3 py-2 text-center hover:bg-gray-100"
-            on:click={() => selectLanguage(lang)}
+            onclick={() => selectLanguage(lang)}
           >
             <span class="text-md">{lang}</span>
           </button>

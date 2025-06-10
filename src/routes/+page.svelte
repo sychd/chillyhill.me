@@ -36,7 +36,7 @@
       class="relative h-10 bg-gradient-to-t from-gray-50 to-transparent dark:from-gray-800"
     ></div>
   </article>
-  <article class="bg-dots -mt-[91px] flex flex-grow flex-col gap-8">
+  <article class="-mt-[91px] flex flex-grow flex-col gap-8">
     <section class="container flex-grow pt-10">
       <div class="prose mb-4 dark:prose-invert">
         <h2 class="text-primary dark:text-secondary">Recent posts</h2>
@@ -47,11 +47,6 @@
       <div class="prose dark:prose-invert">
         <h2 class="text-primary dark:text-secondary">Contact me</h2>
         <ul>
-          <li>
-            Email: <a class="link" href="mailto:dechillyhill&#64;proton&#46;me"
-              >dechillyhill&#64;proton&#46;me</a
-            >
-          </li>
           <li>
             Telegram channel: <a class="link" href="https://t.me/thecoldmountain"
               >The Cold Mountain</a

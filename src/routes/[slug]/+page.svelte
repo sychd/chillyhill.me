@@ -10,7 +10,7 @@
 </svelte:head>
 
 <article
-  class="bg-dots flex flex-grow flex-col overflow-hidden bg-gray-50 px-4 py-8 text-gray-300 dark:bg-gray-800"
+  class="flex flex-grow flex-col overflow-hidden bg-gray-50 px-4 py-8 text-gray-300 dark:bg-gray-800"
 >
   <div class="container flex flex-grow flex-col">
     <hgroup
