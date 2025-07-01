@@ -5,7 +5,7 @@ date: '2025-07-01'
 categories:
   - story
   - writing
-published: true
+published: false
 language: ru
 ---
 
