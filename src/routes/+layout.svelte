@@ -29,7 +29,7 @@
       ></div>
       <section class="container">
         <div class="flex pt-8 text-xs text-cyan-900 dark:text-secondary">
-          Denys Sych © {new Date().getFullYear()}
+          Denys Sych © {new Date().getFullYear()} All rights reserved
         </div>
       </section>
     </footer>
