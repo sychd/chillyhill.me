@@ -25,7 +25,7 @@
     <circle cx="50" cy="50" r="40" fill="url(#Gradient1)" filter="url(#blurFilter)">
         <animate
                 attributeName="cx"
-                dur="45s"
+                dur="22.5s"
                 values="50;0;150;50"
                 keyTimes="0;0.33;0.66;1"
                 calcMode="spline"
@@ -37,7 +37,7 @@
     <circle cx="50" cy="50" r="35" fill="url(#Gradient2)" filter="url(#blurFilter)">
         <animate
                 attributeName="cx"
-                dur="66s"
+                dur="25s"
                 values="50;150;-50;50"
                 keyTimes="0;0.33;0.66;1"
                 calcMode="spline"
@@ -46,7 +46,7 @@
         />
         <animate
                 attributeName="cy"
-                dur="51s"
+                dur="25.5s"
                 values="50;150;-50;50"
                 keyTimes="0;0.33;0.66;1"
                 calcMode="spline"
@@ -58,8 +58,8 @@
     <circle cx="50" cy="50" r="45" fill="url(#Gradient3)" filter="url(#blurFilter)">
         <animate
                 attributeName="cy"
-                dur="72s"
-                values="50;-10;150;50"
+                dur="18s"
+                values="50;-10;190;50"
                 keyTimes="0;0.33;0.66;1"
                 calcMode="spline"
                 keySplines="0.5 0 0.75 1; 0.25 0 0.5 1; 0.5 0 0.75 1"
@@ -70,7 +70,7 @@
     <circle cx="50" cy="50" r="40" fill="url(#Gradient4)" filter="url(#blurFilter)">
         <animate
                 attributeName="cy"
-                dur="42s"
+                dur="21s"
                 values="50;-10;50"
                 keyTimes="0;0.5;1"
                 calcMode="spline"
@@ -79,7 +79,7 @@
         />
         <animate
                 attributeName="cx"
-                dur="72s"
+                dur="16s"
                 values="50;90;-50;50"
                 keyTimes="0;0.33;0.66;1"
                 calcMode="spline"
