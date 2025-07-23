@@ -149,7 +149,7 @@
 
     <div
       bind:this={contentElement}
-      class="prose prose-lg max-w-full flex-grow dark:prose-invert
+      class="whitespace-break-spaces
              selection:bg-primary/20 prose-headings:text-gray-800
              prose-p:mb-6 prose-p:text-lg
              prose-p:font-normal prose-p:leading-relaxed
