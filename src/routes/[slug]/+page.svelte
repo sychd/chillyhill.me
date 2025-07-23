@@ -149,22 +149,9 @@
 
     <div
       bind:this={contentElement}
-      class="whitespace-break-spaces
-             selection:bg-primary/20 prose-headings:text-gray-800
-             prose-p:mb-6 prose-p:text-lg
-             prose-p:font-normal prose-p:leading-relaxed
-             prose-p:text-gray-700 prose-a:text-primary
-             prose-a:no-underline hover:prose-a:underline
-             prose-blockquote:border-l-primary prose-blockquote:text-gray-600
-             prose-strong:text-gray-800 prose-em:text-gray-700
-             prose-code:text-primary prose-pre:bg-gray-100
-             prose-li:text-lg prose-li:leading-relaxed
-             prose-li:text-gray-700 dark:selection:bg-secondary/20
-             dark:prose-headings:text-gray-200 dark:prose-p:text-gray-300
-             dark:prose-a:text-secondary dark:prose-blockquote:border-l-secondary
-             dark:prose-blockquote:text-gray-400 dark:prose-strong:text-gray-200
-             dark:prose-em:text-gray-300 dark:prose-code:text-secondary
-             dark:prose-pre:bg-gray-900 dark:prose-li:text-gray-300"
+      class="{data.meta.categories?.includes('story')
+        ? 'whitespace-break-spaces'
+        : ''} prose prose-lg max-w-full flex-grow dark:prose-invert prose-headings:text-gray-800 dark:prose-headings:text-gray-200"
       style="
         font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
         text-rendering: optimizeLegibility;
