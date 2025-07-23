@@ -10,8 +10,6 @@ published: true
 language: ru
 ---
 
-Спасибо, Ринпоче!
-
 Ссылки:
 - https://youtu.be/TTPeqdMIXfY?si=LTk1bnS26AIh0GnD
 - https://youtu.be/ukTaodQfYRQ?si=u-TzSEVViJTIo83P
