@@ -2,6 +2,7 @@
   import PostsList from './components/PostsList.svelte';
   import BookQuote from '$lib/components/BookQuote.svelte';
   import { base } from '$app/paths';
+  import CategorizedPosts from './components/CategorizedPosts.svelte';
 
   let { data } = $props();
 </script>
@@ -41,7 +42,7 @@
       <div class="prose mb-4 dark:prose-invert">
         <h2 class="text-primary dark:text-secondary">Recent posts</h2>
       </div>
-      <PostsList posts={data.posts} />
+      <CategorizedPosts posts={data.posts} />
     </section>
     <section class="container rounded-lg bg-opacity-80 py-4">
       <div class="prose dark:prose-invert">

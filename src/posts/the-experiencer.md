@@ -3,7 +3,7 @@ title: The experiencer / "Переживатель"
 description: My science fiction book. It is free to read and would be nice to have a feedback!
 date: '2024-12-1'
 categories:
-  - writing
+  - story
 published: true
 language: en
 ---
