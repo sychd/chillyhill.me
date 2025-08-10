@@ -1,6 +1,6 @@
 ---
 title: Chillyhill quote bot
-description: ТГ Бот, который шлёт замтеки из книг
+description: ТГ Бот, который шлёт заметки из книг
 date: '2025-07-25'
 categories:
   - programming
