@@ -49,8 +49,8 @@
         <h2 class="text-primary dark:text-secondary">Contact me</h2>
         <ul>
           <li>
-            Telegram channel: <a class="link" href="https://t.me/thecoldmountain"
-              >The Cold Mountain</a
+            Telegram channel: <a class="link" href="https://t.me/chillyhillstories"
+              >Chillyhill stories</a
             >
           </li>
         </ul>
