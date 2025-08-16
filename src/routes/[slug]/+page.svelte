@@ -41,15 +41,6 @@
     }
   }
 
-  // Reset reading progress
-  function resetProgress() {
-    scrollProgress = 0;
-    if (browser) {
-      localStorage.removeItem(storageKey);
-    }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-
   // Scroll to top
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -114,17 +105,6 @@
         class="h-full bg-gradient-to-r from-primary to-blue-500 transition-all duration-300 ease-out"
         style="width: {scrollProgress}%"
       ></div>
-    </div>
-    <div class="container flex items-center justify-between py-2 text-sm">
-      <div class="flex items-center gap-3 text-gray-600 dark:text-gray-300">
-        <span class="font-medium">Reading Progress: {scrollProgress}%</span>
-      </div>
-      <button
-        onclick={resetProgress}
-        class="rounded-md border border-gray-300 px-3 py-1 text-xs font-medium text-gray-500 transition-colors duration-200 hover:border-primary hover:text-primary dark:border-gray-600 dark:text-gray-400 dark:hover:border-secondary dark:hover:text-secondary"
-      >
-        Reset
-      </button>
     </div>
   </div>
 {/if}
