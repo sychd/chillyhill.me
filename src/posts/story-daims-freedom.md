@@ -1,6 +1,6 @@
 ---
 title: Рассказ "Даймова свобода"
-description: Антиуотпия
+description: Свобода у каждого своя
 date: '2025-06-07'
 categories:
   - story

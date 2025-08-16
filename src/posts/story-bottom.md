@@ -1,6 +1,6 @@
 ---
 title: Рассказ "Дно"
-description: Рассказ об игре воспоминаний
+description: Стоит ли игра свеч? А воспоминаний?
 date: '2025-08-02'
 categories:
   - story
