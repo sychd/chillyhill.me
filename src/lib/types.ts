@@ -10,6 +10,7 @@ export const CATEGORIES = [
   'my app',
   'psychology',
   'story',
+  'flash fiction',
   'poetry'
 ] as const;
 export type Category = (typeof CATEGORIES)[number];
