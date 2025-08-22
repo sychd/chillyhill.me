@@ -1,5 +1,5 @@
 ---
-title: Flash fiction "На кончиках пальцев"
+title: FF Рассказ "На кончиках пальцев"
 description: Может, в покер?
 date: '2025-08-21'
 categories:
