@@ -131,7 +131,7 @@
       bind:this={contentElement}
       class="{data.meta.categories?.includes('story')
         ? 'whitespace-break-spaces'
-        : ''} prose prose-lg max-w-full flex-grow dark:prose-invert prose-headings:text-gray-800 dark:prose-headings:text-gray-200"
+        : ''} prose prose-lg max-w-full flex-grow dark:prose-invert prose-headings:text-gray-800 prose-p:my-0 dark:prose-headings:text-gray-200"
       style="
         font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
         text-rendering: optimizeLegibility;
