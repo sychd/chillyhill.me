@@ -5,7 +5,8 @@
   "author": "Denys Sych",
   "scripts": {
     "dev": "vite dev --port 9000",
-    "build": "vite build",
+    "postbuild:404-spa-fallback": "cp build/index.html build/404.html",
+    "build": "vite build && npm run postbuild:404-spa-fallback",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
