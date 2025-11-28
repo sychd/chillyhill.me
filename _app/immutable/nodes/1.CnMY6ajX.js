@@ -1,0 +1,12 @@
+import"../chunks/Bzak7iHL.js";import"../chunks/CiPh4DN7.js";import{p as c,f as d,t as m,a as g,b as x,c as e,s as f,r as s}from"../chunks/CHd-ugWw.js";import{s as u}from"../chunks/Cf8sFkov.js";import{i as b}from"../chunks/B4ZchNSr.js";import{g as _}from"../chunks/vA9fPZZb.js";var v=d(`<div class="flex flex-grow items-center justify-center bg-gray-50 p-4 dark:bg-gray-800"><div class="text-center"><h1 class="mb-4 text-9xl font-bold text-cyan-800 dark:text-secondary">404</h1> <p class="mb-6 text-2xl text-gray-800 dark:text-secondary">Oops! Page Not Found</p> <p class="mb-8 text-lg text-gray-700 dark:text-secondary">The page you're looking is missing!</p> <a class="
+			inline-block
+			rounded-md
+			bg-cyan-800
+			px-6
+			py-3
+			text-white
+			transition
+			duration-300
+			ease-in-out
+			hover:bg-cyan-900
+		">Return Home</a></div></div>`);function j(r,i){c(i,!1);const o=_(),[n]=o;b();var t=v(),a=e(t),l=f(e(a),6);s(a),s(t),m(p=>u(l,"href",p),[()=>n("/",void 0)]),g(r,t),x()}export{j as component};

@@ -1,0 +1,1 @@
+import{d as o,e as u,T as g,h as t,i as _,C as p,O as a,o as l,g as d,q as m}from"./CHd-ugWw.js";function E(n,r){let s=null,f=t;var i;if(t){s=m;for(var e=_(document.head);e!==null&&(e.nodeType!==p||e.data!==n);)e=a(e);if(e===null)l(!1);else{var y=a(e);e.remove(),d(y)}}t||(i=document.head.appendChild(o()));try{u(()=>r(i),g)}finally{f&&(l(!0),d(s))}}export{E as h};
