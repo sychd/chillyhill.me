@@ -11,6 +11,7 @@ export const CATEGORIES = [
   'psychology',
   'story',
   'flash fiction',
+  'horror',
   'poetry'
 ] as const;
 export type Category = (typeof CATEGORIES)[number];
