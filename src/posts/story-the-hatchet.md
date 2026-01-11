@@ -1,7 +1,7 @@
 ---
 title: Рассказ "Топорик"
 description: Он исправно рубит!
-date: '2026-11-01'
+date: '2026-01-11'
 categories:
   - story
   - writing
