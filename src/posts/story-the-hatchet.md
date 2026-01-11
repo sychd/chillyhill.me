@@ -13,6 +13,7 @@ language: ru
    <img src="./images/story-the-hatchet/blinds.jpeg" alt="image explanation"/>
    <figcaption>The Blind Leading the Blind by Pieter Bruegel the Elder</figcaption> 
 </figure>
+
 Крона ветвистого дерева едва укрывала песочницу от палящего солнца. Стоящая в ней девочка наотмашь бьёт мальчугана по лицу. Его солёные слёзы и слюна прыскают на пекучий песок, мгновенно испаряясь.
 
 — Нет ничего доброго! Только злое! — девчушка подскакивает к лежащему. — Как, например, это!
