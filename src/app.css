@@ -33,3 +33,10 @@ body {
 .link {
   @apply cursor-pointer text-cyan-800 no-underline hover:text-cyan-900 hover:underline dark:text-cyan-500 dark:hover:text-cyan-500;
 }
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  text-align: center;
+}
