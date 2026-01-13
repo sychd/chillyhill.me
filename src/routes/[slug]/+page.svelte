@@ -115,7 +115,7 @@
 >
   <div class="container flex flex-grow flex-col">
     <hgroup
-      class="prose mb-6 flex max-w-full flex-col items-center justify-between dark:prose-invert"
+      class="prose flex max-w-full flex-col items-center justify-between dark:prose-invert"
     >
       <h1 class="mb-0 font-bold text-primary dark:text-secondary">
         {data.meta.title}
