@@ -2,20 +2,6 @@
 
 This is my personal blog.
 
-## Redacting: extra new lines
-
-Add extra new lines excluding dialogs (starting with`--`):
-```
-sed -i '' '
-/^[—<]/{
-  N
-  /^[—<][^\n]*\n[—<]/b
-  s/\n/\n\n/
-}
-G
-' file.txt
-```
-
 ## Developing
 
 Install dependencies with `npm install`, start a development server:

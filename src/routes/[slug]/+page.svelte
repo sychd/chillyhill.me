@@ -130,7 +130,7 @@
     <div
       bind:this={contentElement}
       class="{data.meta.categories?.includes('story')
-        ? 'whitespace-break-spaces'
+        ? 'whitespace-break-spaces flex flex-col gap-2'
         : ''} prose max-w-full flex-grow dark:prose-invert prose-headings:text-gray-800 prose-p:my-0 dark:prose-headings:text-gray-200"
       style="
         font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;

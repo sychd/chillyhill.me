@@ -12,7 +12,8 @@
     "format": "prettier --write .",
     "lint": "prettier --check . && eslint .",
     "sitemap": "npx sitemap-generator-cli https://chillyhill.me -f static/sitemap.xml && git add static/sitemap.xml && git commit -m\"Updated sitemap.xml\" && git push",
-    "sitemap:local": "npx sitemap-generator-cli http://localhost:9000 -f static/sitemap.xml"
+    "sitemap:local": "npx sitemap-generator-cli http://localhost:9000 -f static/sitemap.xml",
+    "newline-format": "node utils/newline-format.js"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",
