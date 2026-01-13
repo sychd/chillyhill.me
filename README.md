@@ -2,6 +2,12 @@
 
 This is my personal blog.
 
+## Newline formatting
+
+Append extra new lines where it is needed (cyrillic writing):
+
+`npm run newline-format -- ./src/posts/story-rectangable.md`
+
 ## Developing
 
 Install dependencies with `npm install`, start a development server:
