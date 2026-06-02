@@ -1,38 +1,22 @@
-<script>
-  import PostsList from './components/PostsList.svelte';
-  import BookQuote from '$lib/components/BookQuote.svelte';
-  import { base } from '$app/paths';
-  import CategorizedPosts from './components/CategorizedPosts.svelte';
+<style>
+  .container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
 
-  let { data } = $props();
-</script>
+    a {
+      text-decoration: none;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+      font-size: 2rem;
+    }
 
-<div class="flex flex-grow flex-col">
-  <article
-    class="relative -top-14 left-0 w-full bg-[url('/images/background-banner.svg')] bg-cover bg-center pt-14"
-  >
-    <div
-      class="relative h-4 bg-gradient-to-t from-gray-50 to-transparent dark:from-gray-800"
-    ></div>
-  </article>
-  <article class="-mt-[91px] flex flex-grow flex-col gap-8">
-    <section class="container flex-grow pt-10">
-      <div class="prose mb-4 dark:prose-invert">
-        <h2 class="text-primary dark:text-secondary">Recent posts</h2>
-      </div>
-      <CategorizedPosts posts={data.posts} />
-    </section>
-    <section class="container rounded-lg bg-opacity-80 py-4">
-      <div class="prose dark:prose-invert">
-        <h2 class="text-primary dark:text-secondary">Contact me</h2>
-        <ul>
-          <li>
-            Telegram channel: <a class="link" href="https://t.me/chillyhillstories"
-              >Chillyhill stories</a
-            >
-          </li>
-        </ul>
-      </div>
-    </section>
-  </article>
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+</style>
+<div class="container">
+  <a href="https://www.youtube.com/watch?v=Rl1ImG2b1k8&list=RDRl1ImG2b1k8&start_radio=1">Rick Roll</a>
 </div>

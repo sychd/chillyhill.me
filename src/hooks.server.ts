@@ -1,4 +1,11 @@
 import type { Handle } from '@sveltejs/kit';
-import { i18n } from '$lib/i18n';
-const handleParaglide: Handle = i18n.handle();
-export const handle: Handle = handleParaglide;
+
+export const handle: Handle = async ({ event, resolve }) => {
+  const response = await resolve(event);
+
+  if (response.status === 404 && event.url.pathname !== '/') {
+    return Response.redirect(new URL('/', event.url), 307);
+  }
+
+  return response;
+};
